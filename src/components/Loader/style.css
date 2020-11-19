@@ -1,0 +1,42 @@
+.Loader {
+  background-color: #4c4b4d;
+  display: flex;
+  justify-content: space-around;
+  flex: 1 0 auto;
+  height: auto;
+}
+
+.Loader-search {
+  width: 30%;
+}
+
+.Loader-search input {
+  border-radius: 15px;
+  border: none;
+  height: 25px;
+  font-size: 15px;
+}
+
+.Loader-result {
+  display: flex;
+  width: 70%;
+  flex: 1 1 auto;
+  flex-wrap: wrap;
+}
+
+.card {
+  background-color: #ffffff;
+  margin: 20px;
+  padding-left: 20px;
+  width: 310px;
+  height: 110px;
+  border-radius: 10px;
+  color: #636363;
+  text-align: left;
+  font-size: 12px;
+}
+
+.results {
+  color: #ffffff;
+  margin-top: 15px;
+}
